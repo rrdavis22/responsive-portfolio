@@ -4,53 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Responsive Portfolio</title>
 </head>
+<style>
+    body {
+      background-image: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    }
+    </style>
 <body>
-    <header>
-        <div class="navbar">
-            <nav class="lists">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>  
-            <div class="name">
-                 <h1 id="myName">Ronnie Davis</h1>
-            </div>           
-        </div>
+    <header class="site-header">
+        <h2>Ronnie Davis</h2>
     </header>
-    <div class="container">
-        <h1>Portfolio</h1>
-        <hr>
-        <div class="imageGrid">
-            <img src="https://www.mensjournal.com/wp-content/uploads/2016/08/RockyMountains.jpg" width="250" height="200">
-            <div class="imageText">
-                <h2>Rocky Mountains</h2>
-            </div>
+    <br>
+
+<nav>
+    <ul class="navigation">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+
+<div class="container-3">
+
+    <h2 class="page-header">Portfolio</h2>
+    <br>
+    <hr>
+    <br>
+
+    <div class="gallery">
+          
+    <a href="https://rosebourn.github.io/Freelance-Connector-Take2/" target="_blank"><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" class="hangman" width="250" height="200" title="Git-A-Gig" alt="Git-A-Gig"></a>
+        <div class="text-block-1">
+            <a class="card-title" href="https://rosebourn.github.io/Freelance-Connector-Take2/" target="_blank"><h3>Git-A-Gig</h3></a>
         </div>
-        <div class="imageGrid">
-            <img src="https://livingnewdeal.org/wp-content/uploads/2015/08/Red-Rocks-Amphitheatre-29148745_3421_ver1.0_640_480.jpg" width="250" height="200">
-            <div class="imageText">
-                <h2>Red Rocks</h2>
-            </div>
-        </div>
-        <div class="imageGrid">
-            <img src="https://previews.123rf.com/images/andreykr/andreykr1408/andreykr140800101/31006009-denver-april-30-2014-colorado-convention-center-on-april-30-2014-in-denver-colorado-centrally-locate.jpg" width="250" height="200">
-            <div class="imageText">
-                <h2>Convention Center</h2>
-            </div>
-        </div>
-        <div class="imageGrid">
-            <img src="https://i.pinimg.com/originals/6d/3f/c4/6d3fc48729f7476865de22da3b7c656f.jpg" width="250" height="200">
-            <div class="imageText">
-                <h2>Painting</h2>
-            </div>
-        </div>        
     </div>
-    <footer>
-        <p id="Copyright">Copyright © </p>
-    </footer>
+
+    <div class="gallery">
+           
+    <a href="https://rrdavis22.github.io/daily-planner2/" target="_blank"><img src="https://media.wired.com/photos/5c1ae77ae91b067f6d57dec0/master/pass/Comparison-City-MAIN-ART.jpg" class="rpg-game" width="250" height="200" title="Day Planner" alt="Day Planner"></a>
+        <div class="text-block-1">
+            <a class="card-title" href="https://rrdavis22.github.io/daily-planner2/" target="_blank"><h3>Day Planner</h3></a>
+        </div>
+    </div>
+
+    <div class="gallery">
+           
+    <a href="https://rrdavis22.github.io/password-gen/" target="_blank"><img src="https://images.idgesg.net/images/article/2018/08/5_password-best-practices_unique-passwords_authentication-100768646-large.jpg" class="trivia-game" width="250" height="200" title="Password Generator" alt="Password Generator"></a>
+        <div class="text-block-1">
+            <a class="card-title" href="https://rrdavis22.github.io/password-gen/" target="_blank"><h3>Password Generator</h3></a>
+        </div>
+    </div>
+
+    <div class="gallery">
+            
+    <a href="https://secret-shelf-67225.herokuapp.com/" target="_blank"><img src="https://static.makeuseof.com/wp-content/uploads/2016/05/ChromeNewTab-670x335.jpg" class="rutgers" width="250" height="200" title="deedlist" alt="deedlist"></a>
+        <div class="text-block-2">
+            <a class="card-title" href="https://secret-shelf-67225.herokuapp.com/" target="_blank"><h3>Task List</h3></a>
+        </div>
+    </div>
+
+    <div class="gallery">
+            
+        
+    
+
+</section>
+<div class="footer">
+    <footer>Copyright©</footer>
+</div>
 </body>
 </html>
